@@ -71,10 +71,6 @@ public class Lector {
 				nombre = a1.getContents();
 			}
 		}
-		
-		for(Persona p2: listaPersonas){
-			System.out.println(p2.toString());
-		}
 		return listaPersonas;
 	}
 	

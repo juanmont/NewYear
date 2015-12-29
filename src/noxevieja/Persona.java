@@ -56,6 +56,6 @@ public class Persona {
 	}
 	
 	public String toString(){
-		return nombre + "\n" + bebida + "\n";
+		return "Nombre: "+  nombre + "       Bebida: " + bebida + "          Mezcla: " + mezcla;
 	}
 }
